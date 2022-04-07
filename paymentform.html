@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+    <style>
+      h1{
+        text-decoration: solid;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color:black;
+
+      }
+      body{
+        background-color:azure;
+
+      }
+      p{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color:blue;
+      }
+
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <h1>CONTACT US FORM</h1>
+         <p>Name: *<input type="text" name="name" required></p>
+         <fieldset>
+          <legend>
+              Gender
+          </legend>
+           <p>male<input type="radio" name="gender"><br> 
+           femlae<input type="radio" name="gender"><br>
+           others<input type="radio" name="gender">
+        </p>
+         </fieldset>
+         <p>Address <textarea name="address" id="" cols="20" rows="5"></textarea></p>
+        <p>Email<input type="email"  </p>
+        <p>card type: <select >
+            <option value="">-select the card-></option>
+            <option value="1">visa card</option>
+            <option value="2">master card</option>
+            <option value="3">paytm card</option>
+        </select></p>
+    <p>submit:<input type="submit"></p>    
+    </form>
+</body>
+</html>

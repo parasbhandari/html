@@ -1,0 +1,16 @@
+.paras{
+
+background-color: aqua;
+display:inline-block;
+height:200px;
+}
+p{
+    background-color:gray;
+    
+      
+}
+span{
+    display:block;
+ height:200px;
+    background:black;
+}

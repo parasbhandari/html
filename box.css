@@ -1,0 +1,22 @@
+#red{
+height:100px;
+width:100px;
+background-color:red;
+float:right;
+}
+#blue{
+height:100px;
+width:100px;
+background-color:blue;
+float:right;
+}
+#green{
+    height:200px;
+    width:200px;
+    background-color:green;
+    clear:both;
+    margin:500px;
+    box-shadow:7px 10px 10px gray;
+      border-radius: 40px;
+    transform:rotate(60deg)
+}

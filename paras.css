@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/651691/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+border: 2px dashed yellowgreen;
+
+}
+#paras{   
+    
+    text-decoration: underline;
+}
+.bit{
+ text-transform: capitalize;
+ text-shadow: 0px;
+color:brown;
+}

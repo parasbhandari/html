@@ -1,0 +1,28 @@
+.container{
+border:3px solid black;
+height:500px;
+width:900px;
+display:flex;
+}
+.box1{
+border:3px solid black;
+height:100px;
+width:200px;
+background-color: antiquewhite;
+flex-basis: 100%;
+}
+.box2{
+
+    border:3px solid black;
+    height:100px;
+    width:200px;
+    background-color: red;
+}
+.box3{
+
+    border:3px solid black;
+    height:100px;
+    width:200px;
+    background-color: blue;
+
+}
